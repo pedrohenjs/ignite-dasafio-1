@@ -1,19 +1,20 @@
 # Abra um terminal e execute as instruções:
 
 ```bash
-git clone https://github.com/pedrohenjs/ignite-dasafio-1.git # clone o repositório
+# clone o repositório
+git clone https://github.com/pedrohenjs/ignite-dasafio-1.git 
 
-cd ignite-desafio-1 # acesse o diretório do projeto
+# acesse o diretório do projeto
+cd ignite-desafio-1  
 
-# abra o projeto em seu editor de código favorito
+# instale as dependências
+yarn 
 
-code .     # use esse comando para abrir o projeto no VSCode
+# rode os testes
+yarn test 
 
-yarn # instale as dependências
-
-yarn test # rode os testes
-
-yarn dev # rode o projeto
+# rode o projeto
+yarn dev 
 
 
 ```
